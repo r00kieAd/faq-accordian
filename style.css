@@ -3,6 +3,8 @@ body {
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: hsl(275, 100%, 97%);
+    font-family: 'Work Sans', sans-serif;
 }
 
 .main {
@@ -11,8 +13,9 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     /* border: 1px solid black; */
+    box-shadow: 2px 2px 5px hsl(292, 16%, 49%);
     border-radius: 10px;
-    width: 27rem;
+    width: 30rem;
     height: auto;
     padding: 1%;
     background-color: white;
@@ -22,10 +25,21 @@ body {
     position: relative;
     display: flex;
     flex-direction: row;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+h1, h5 {
+    color: hsl(292, 42%, 14%);
+}
+
+hr {
+    border-top: none;
+    background-color: hsl(275, 100%, 97%);
 }
 
 .header img {
-    width: 25px;
+    width: 30px;
     height: auto;
 }
 
@@ -55,5 +69,7 @@ body {
 .a {
     margin: 1%;
     display: none;
+    font-size: 15px;
+    color: hsl(292, 16%, 49%);
 }
 
