@@ -1,11 +1,23 @@
-$('.q1 img').click(function(){
-    $('.a1').slideDown("slow");
-    $('.q1 .mns').show()
-    $(this).hide();
-});
+let A, NUM
 
-$('.q1 .mns').click(function(){
-    $('.a1').slideUp("slow");
-    $('.q1 img').show();
-    $(this).hide();
-});
+function openDiv(q, a, img, num) {
+    forceCloseDiv();
+    $(a).slideDown("slow");
+    A = a;
+    NUM = num;
+    console.log(NUM)
+    $(q).hide();
+    $(img).show();
+}
+
+function closeDiv(q, a, img) {
+    $(a).slideUp("slow");
+    $(q).hide();
+    $(img).show();
+}
+
+function forceCloseDiv() {
+    $(A).slideUp("slow");
+    $('.mns'+NUM).hide();
+    $('.pls'+NUM).show();
+}
