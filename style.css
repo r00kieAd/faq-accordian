@@ -36,6 +36,7 @@ h1, h5 {
 hr {
     border-top: none;
     background-color: hsl(275, 100%, 97%);
+    margin: 1% 0;
 }
 
 .header img {
