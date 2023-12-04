@@ -73,6 +73,10 @@ hr {
     color: hsl(292, 16%, 49%);
 }
 
+.p {
+    margin: 1% 0;
+}
+
 @media screen and (max-width: 600px) {
 
     body {
