@@ -73,3 +73,18 @@ hr {
     color: hsl(292, 16%, 49%);
 }
 
+@media screen and (max-width: 600px) {
+
+    body {
+        background-image: none;
+        background-image: url('images/background-pattern-mobile.svg');
+        background-size: 120%;
+    }
+
+    .main {
+        width: 90vw;
+        height: auto;
+        padding: 1%;
+    }
+}
+
